@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtualizção</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+          Entendendo o que é Virtualizção
+        </h1>
+        
+        <p>
+            Virtualização é a capacidade de criar um computador virtual no seu PC, permitindo instalar sistema operacional, rodar programas e realizar tarefas.
+
+        </p>
+    </header>
+    <main>
+        <h1>Introdução à Virtualização</h1>
+       <div class="video">
+            
+                <center><iframe width="560" height="315" src="https://www.youtube.com/embed/oCDBWj6K42A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+       
+        </div>
+        <p>
+            Técnica que permite a criação de uma máquina virtual para funcionar dentro do sistema de um PC. 
+            É utilizada tanto por usuários comuns como por profissionais de TI e permite, entre outras coisas, a execução de SOs completos ou uma simulação do comportamento do sistema para quem trabalha com desenvolvimento de software e testes de segurança. <br>
+            <p class="fonte"> Fonte: <a href=" https://www.techtudo.com.br/listas/2020/07/o-que-e-virtualizacao-entenda-como-funciona-o-processo-no-pc.ghtml" target="_blank">Click Aqui.</a></p>
+
+        </p>
+        <h1>Histórico e origem da virtualização</h1>
+            <div class="video">
+                
+                <center><iframe width="560" height="315" src="https://www.youtube.com/embed/htaA_vf7eH0?start=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+            </div>
+            <p>
+                HISTORICO E ORIGEM DA VIRTUALIZAÇÃO
+                A ideia surgiu na metade de 1960, quando os computadores tinham velocidade de processamento, mas ineficiência no tempo de cálculo, devido ao gerenciamento de processos ser feito manualmente pelo operador.
+                </p>
+            
+            <p>
+                O conceito se consolidou na década de 70, sendo importante para o desenvolvimento de novas arquiteturas e novas tecnologias. Em 1972 a IBM lançou um mainframe capaz de executar simultaneamente diferentes SOs sob a supervisão de um programa de controle (hypervisor).
+            </p>
+            
+            <p>
+                O primeiro computador comercial inteiramente projetado para virtualização foi o sistema 370 da IBM que, com o SO  CP/CMS, permitia executar múltiplas instâncias simultaneamente. Logo depois veio o IBM z/VM, que se aproveitava da virtualização via hardware de forma mais completa, onde todas duas interfaces de hardware eram virtualizadas.
+            </p>
+                
+            <p>
+                Com o passar dos anos, a virtualização foi caindo no esquecimento devido a criação de novas aplicações client/servidor e ao declínio da plataforma mainframe que perdeu força frente a ascensão da plataforma x86. E com a ampla adoção dos SOs Windows e Linux em servidores na década de 1990, isso estabeleceu a arquitetura x86 como padrão da indústria.
+            </p>
+            
+            <p>
+                Em 1999, a VMWare Inc. introduziu o conceito de virtualização na plataforma x86 como uma maneira mais eficiente para utilizar o equipamento desta plataforma. Eles aproveitaram os servidores x86 para fornecer uma estrutura computacional que possibilitasse o total aproveitamento dos recursos computacionais destes servidores
+            </p>
+                
+            <p>
+                Então, a partir de 2005 os fabricantes de processadores como Intel e AMD deram mais atenção a necessidade de melhorar o suporte via hardware em seus produtos. A Intel com sua tecnologia Intel VT e a AMD com a AMD-V. <br>
+                <p class="fonte"> Fonte: <a href="https://www.hialinx.com.br/post/o-surgimento-da-virtualiza%C3%A7%C3%A3o-e-as-grandes-mudan%C3%A7as-que-ela-trouxe" target="_blank"> Click Aqui.</a> </p>
+                
+            </p>
+        <h1>Algumas ferramentas de virtualização</h1>
+            <p>
+
+                As ferramentas mais comuns de virtualização são destinadas à virtualização de desktops, tais como o Microsoft Virtual PC e o Virtual Box.
+                <br>
+                Outras ferramentas conhecidas:
+                <h2>1 - VMware</h2>
+                É o software de virtualização para a plataforma x86 mais conhecido, com uma implementação completa de interface ao sistema convidado. <br>
+                É útil em diversas aplicações como: <br>
+                <ul>
+                    <li>
+                        	Ambientes de desenvolvimento 
+                    </li>
+                    
+                    <li>
+                        	Ambientes de suporte 
+                    </li>
+                    
+                    <li>
+                        Migração e Consolidação  
+                    </li>
+                    
+                    <li>
+                        Simulação de Instalações de Rede
+                    </li>
+                    <li>
+                        Balanceamento de Carga
+                    </li>
+                </ul>
+                <center><img src="img/Hardaware.png" alt="Hardaware"></center>
+                <p class="fonte">
+                    Fonte figura: <a href="https://www.hardware.com.br/artigos/ferramentas-virtualizacao/" target="_blank" > Click Aqui</a> 
+                </p>
+                
+                <h2> 2 - Xen</h2>
+                <p>
+                
+                Patrocinado pela Universidade de Cambridge - Inglaterra, é uma das principais soluções de virtualização para Linux
+                <\<p>
+                <p>
+                Faz implementação entre o Hardware e Software para plataforma X86. Com suporte a múltiplos sistemas convidados simultaneamente, excelente desempenho, isolamento e seu baixo custo, o Xen é o que especialistas esperavam para melhorar a virtualização no Linux.
+
+                </p>
+                <center><img src="img/xen.png" alt="xen"></center>
+               
+                <p class="fonte">
+                    Fonte figura: <a href="https://www.hardware.com.br/artigos/ferramentas-virtualizacao/"> Click Aqui.</a>
+                
+            </p>
+        
+            <h2> 3 - QEMU</h2>
+            <p>
+                O QEMU é um emulador de sistema gratuito, livre e com uma interface de extrema facilidade.Utiliza comandos simples para tarefas que podem ser complicadas em outros emuladores.
+            </p>
+            <center> <img src="img/wmu.png" alt="qmu"></center>
+            <p class="fonte">
+                Fonte figura: <a href="https://www.hardware.com.br/artigos/ferramentas-virtualizacao/">Click Aqui.</a>
+            </p>
+        <h1>TIPOS DE VIRTUALIZAÇÃO</h1>
+            <p>
+                Todos os tipos de virtualização têm pelo menos uma coisa em comum: a abstração de algo físico em partes discretas via software. 
+            </p>
+            <p>
+                Seguem os principais tipos de virtualização:
+            </p>
+            <h2>
+                 Virtualização de rede 
+            </h2>
+            <p>
+                Usa os recursos disponíveis em uma rede e divide a largura de banda em canais distintos, onde se pode proteger cada canal separadamente e atribuir os canais a dispositivos específicos em tempo real.    
+            </p>
+            <p>As metas principais da virtualização de rede são melhorar a velocidade, a disponibilidade e a segurança das redes, além de aliviar a carga associada ao gerenciamento de rede. Dá a opção gerenciar arquivos centralmente, adicionar ou reatribuir mídia de armazenamento e compartilhar ou realocar o espaço de armazenamento entre os servidores, conforme necessário.</p>
+            <h2>
+                Virtualização de armazenamento
+            </h2>
+            <p>
+                Usa o software para encontrar espaço de armazenamento físico de vários dispositivos e agrupá-lo no que parece ser um único dispositivo de armazenamento que as máquinas podem usar. 
+            </p>
+            <p>
+                De forma resumida, o software recebe solicitações de E/S de dispositivos físicos e VMs e, em seguida, envia as solicitações para o local do armazenamento físico que faz parte do pool de armazenamento geral, tornando possível o gerenciamento de todo o armazenamento através de um console central.
+            </p>
+            <p>
+                Os benefícios desse tipo de virtualização incluem o gerenciamento simplificado de tipos de armazenamento heterogêneos, custos de hardware reduzidos e maior desempenho e confiabilidade.
+            </p>
+            <h2>
+                Virtualização de desktop   
+            </h2>
+            <p>
+                Têm como objetivo principal isolar um SO de desktop que os usuários utilizam para acessá-lo. 
+            </p>
+            <p>
+                Com a virtualização baseada em host ou em infraestrutura de desktop virtual (VDI), os usuários se conectam a uma área de trabalho virtual em uma rede usando um protocolo de exibição remota.
+            </p>
+            <p>
+                Os clientes podem ser desktops tradicionais, thin clients ou até mesmo dispositivos móveis, como smartphones ou tablets. Um usuário se conecta a uma VM que executa o SO e os aplicativos de que precisa.
+            </p>
+            <p>
+                Quando vários usuários se conectam a uma área de trabalho compartilhada, como é o caso dos Serviços de Área de Trabalho Remota da Microsoft, ela é conhecida como virtualização de área de trabalho hospedada compartilhada. 
+            </p>
+            <h2>
+                Virtualização de aplicativos
+            </h2>
+            <p>
+                Se a única coisa que os usuários devem acessar a partir dessa área de trabalho compartilhada é um único aplicativo, isso é chamado de virtualização de aplicativos.
+            </p>
+
+            <p>Um aplicativo é executado separadamente do dispositivo que o acessa. A virtualização de aplicativos possibilita que os administradores de TI instalem e atualizem uma versão de um aplicativo, em vez de executar as mesmas tarefas de gerenciamento várias vezes.</p>
+            <p> A abordagem mais comum à virtualização de aplicativos é baseada em servidor, em que o aplicativo é executado em uma VM, no data center ou em outro serviço de hospedagem, e os usuários interagem com o aplicativo em um protocolo de exibição remota.</p>
+
+            <p>
+                Na verdade, um aplicativo não pode ser executado independentemente de um SO, então, de certa forma, a virtualização de aplicativos é a de desktops. Geralmente, sua aplicação de uso determina qual termo está correto.
+            </p>
+
+
+
+
+
+        <h1>Conceitos básicos da virtualização</h1>
+            <p>
+                A virtualização consiste na emulação de ambientes isolados, permitindo que diferentes SOs rodem dentro de uma mesma máquina, aproveitando ao máximo a capacidade do hardware. Esse aproveitamento é maior, pois fornece a possibilidade de vários ambientes de execução independentes a diferentes usuários em um mesmo equipamento físico.  
+            </p>
+            <p>
+                Pode diminuir o poder dos SOs que, muitas vezes, restringem o uso do hardware, quanto à utilização de software. Isso acontece porque softwares normalmente só rodam no SO para o qual foram projetados para rodar. Diferentes sistemas operando em uma mesma máquina aumentam a gama de softwares que podem ser utilizados sobre o mesmo hardware.
+            </p>
+
+            <p class="fonte">
+                Fonte: <a href="https://www.gta.ufrj.br/grad/09_1/versao-final/virtualizacao/conceito%20de%20virtualizacao.html" target="_blank"> Click Aqui</a>  
+            </p>
+            <h2>
+                Vantagens 
+            </h2>
+            <p>
+                Melhor aproveitamento da infraestrutura existente: executando vários serviços em um servidor ou conjunto de máquinas, pode-se aproveitar a capacidade de processamento destes equipamentos o mais próximo possível de sua totalidade.
+
+            </p>
+            <p>
+                <strong>Uso de sistemas legados:</strong> desde que se destine a ele uma máquina virtual compatível com o seu ambiente.
+            </p>
+            <p>
+                <strong>Uso de sistemas legados:</strong> desde que se destine a ele uma máquina virtual compatível com o seu ambiente.
+            </p>
+            <p>
+                <strong>Diversidade de plataformas:</strong> possibilitando realizar testes de desempenho de determinada aplicação em cada uma delas.
+            </p>
+            <p>
+                <strong>Gerenciamento centralizado:</strong>  facilitando o monitoramento dos serviços em execução.
+            </p> Fonte:
+            <p class="fonte">
+                Fonte: https://www.hialinx.com.br/post/o-surgimento-da-virtualiza%C3%A7%C3%A3o-e-as-grandes-mudan%C3%A7as-que-ela-trouxe
+            </p>
+            <h2>
+                Desvantagens
+            </h2>
+            <p><strong>Sobrecarga de tarefas:</strong> ao se ligar muitas máquinas virtuais ao mesmo tempo.</p>
+            <p><strong>Segurança:</strong> é possível um vírus de uma máquina virtual afetar outra.</p>
+            <p>
+               <strong> Dependência:</strong> Dependência: Caso algum problema aconteça com o host e a máquina virtual não esteja alocada em outro servidor, perde-se todos os arquivos, programas, pastas ou qualquer outra coisa que tiver em ambas as plataformas.
+            </p>
+            <p>
+                <strong> Gastos: </strong>  com manutenção, já que o desempenho é muito maior e consequentemente o desgaste dos componentes pode também ser maior.
+            </p>
+            <p class="fonte">
+                Fonte:
+                <a href=": https://www.oficinadanet.com.br/post/13055-quais-sao-as-vantagens-e-as-desvantagens-de-uma-virtualizacao"> Click Aqui</a>
+
+            </p>
+    </main>
+</body>
+</html>
