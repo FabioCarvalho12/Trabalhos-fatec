@@ -45,3 +45,8 @@ main > p{
     background-color: black;
     color: white;
 }
+footer{
+    background-color: #204594;
+    color: white;
+    text-align: center;
+}
