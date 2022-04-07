@@ -12,13 +12,12 @@ header{
     padding: 10px;  
     border-radius: 0px 0px 10px 10px; 
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.363); 
-    
-    min-width: 500px;
-    max-width: 1000px;
     margin: 0%;
+    margin-right: -77;
 }
 header > img{
-   width: 100%;
+   width: 80%;
+  
 }
 
 body{
@@ -93,8 +92,6 @@ footer{
     text-align: center;
     padding: 20px;
     font-size: 20px;
-
-    min-width: 500px;
-    max-width: 1000px;
     margin: 0%;
+    
 }
