@@ -15,7 +15,7 @@ header{
     
     min-width: 500px;
     max-width: 1000px;
-    margin: auto;
+    margin: 0%;
 }
 header > img{
    width: 100%;
@@ -96,5 +96,5 @@ footer{
 
     min-width: 500px;
     max-width: 1000px;
-    margin: auto;
+    margin: 0%;
 }
