@@ -67,6 +67,9 @@ main > p{
     margin: 10px 40px 10px 40px;
 
 }
+section{
+    text-align: justify;
+}
 iframe{
     width: 70%;
 }
