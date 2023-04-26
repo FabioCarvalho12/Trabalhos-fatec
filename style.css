@@ -50,6 +50,8 @@ main > h1{
     font-family:  'Courier New', Courier, monospace;
     font-style: italic;
     text-indent: 30px;
+    text-align: left;
+    margin: 2em;
     margin-bottom: 10px;
 
 }
