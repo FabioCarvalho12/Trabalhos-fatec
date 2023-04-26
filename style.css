@@ -65,7 +65,7 @@ main > section > h2{
 main > section > p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
-    text-align: left;
+    text-align: justify;
     text-indent: 30px;
     margin: 10px 40px 10px 40px;
 
@@ -77,13 +77,14 @@ iframe{
     width: 70%;
 }
 .video{
-    background-color: #ffffff5d;
+    background-color: rgb(8, 248, 28);
     margin: 10px 150px 10px 150px;
     
     min-width: 500px;
     max-width: 800px;
 }
 .fonte{
+    font-family: 'Courier New', Courier, monospace;
     text-align: right;
     font-weight: bold;
 }
@@ -91,17 +92,17 @@ iframe{
     text-decoration: none;
 }
 .fonte > a:hover{
-    background-color: black;
+    background-color: rgb(8, 248, 28);
     color: white;
-    padding: 7px;
-    border-radius: 10px 0px 10px 0px;
+    padding: 3px;
+    border-radius: 10px;
     transition-duration: 0.5s;
 }
 footer{
     background-color: #204594;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 3px;
     font-size: 20px;
     margin: 0%;
     
